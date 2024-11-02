@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RinconUniversal.com - Tu Fuente de Tendencias y Más</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Rincón Universal</h1>
+            <button class="hamburger" onclick="toggleMenu()">☰</button>
+        </div>
+    </header>
+    
+    <div id="menu-overlay" class="menu-overlay" onclick="toggleMenu()"></div>
+
+    <nav id="menu">
+        <ul>
+            <li><a href="#inicio" onclick="hideContent()">Inicio</a></li>
+            <li><a href="#categorias" onclick="hideContent()">Categorías</a></li>
+            <li><a href="#tendencias" onclick="hideContent()">Tendencias</a></li>
+            <li><a href="#contacto" onclick="hideContent()">Contacto</a></li>
+        </ul>
+    </nav>
+    
+    <div id="main-content">
+        <main id="inicio">
+            <!-- Aquí va el contenido principal -->
+            <section class="hero">
+                <h2>¡Tu rincón de diversión y descubrimiento!</h2>
+                <p>Sumérgete en historias interesantes y entretenimiento que alegrarán tu día. ¡Aquí hay algo para todos!</p>
+
+            </section>
+
+            <section id="categorias" class="categories">
+                <h2>Categorías Principales</h2>
+                <div class="categories-container">
+                    <a href="tecnologia.html" class="category-card">Tecnología</a>
+                    <a href="cultura.html" class="category-card">Cultura</a>
+                    <a href="deportes.html" class="category-card">Deportes</a>
+                    <a href="entretenimiento.html" class="category-card">Entretenimiento</a>
+                    <a href="salud.html" class="category-card">Salud</a>
+                    <a href="tendencias.html" class="category-card">Tendencias</a>
+                </div>
+            </section>
+            
+            
+            <section id="tendencias" class="articles">
+                <h2>Lo que está en Tendencia</h2>
+                <div class="articles-container">
+                    <article class="article">
+                        <img src="https://via.placeholder.com/300" alt="Imagen de artículo 1">
+                        <h3>Título del Artículo en Tendencia 1</h3>
+                        <p>Resumen breve que invita al lector a saber más sobre temas actuales.</p>
+                        <a href="#">Leer más</a>
+                    </article>
+                    <article class="article">
+                        <img src="https://via.placeholder.com/300" alt="Imagen de artículo 2">
+                        <h3>Título del Artículo en Tendencia 2</h3>
+                        <p>Resumen breve que invita al lector a saber más sobre temas actuales.</p>
+                        <a href="#">Leer más</a>
+                    </article>
+                </div>
+            </section>
+        </main>
+    </div>
+    
+    <footer id="contacto">
+        <p>&copy; 2024 RinconUniversal.com. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
