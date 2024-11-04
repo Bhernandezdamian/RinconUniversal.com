@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RinconUniversal.com - Tecnología</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Encabezado con el nombre del sitio y el menú hamburguesa -->
+    <header>
+        <div class="container">
+            <h1>Rincón Universal</h1>
+            <button class="hamburger" onclick="toggleMenu()">☰</button>
+        </div>
+    </header>
+
+    <!-- Menú de navegación -->
+    <div id="menu-overlay" class="menu-overlay" onclick="toggleMenu()"></div>
+    <nav id="menu">
+        <ul>
+            <li><a href="index.html#inicio">Inicio</a></li>
+            <li><a href="tecnologia.html">Tecnología</a></li>
+            <li><a href="cultura.html">Cultura</a></li>
+            <li><a href="deportes.html">Deportes</a></li>
+            <li><a href="entretenimiento.html">Entretenimiento</a></li>
+            <li><a href="salud.html">Salud</a></li>
+            <li><a href="tendencias.html">Tendencias</a></li>
+            <li><a href="index.html#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- Contenido principal: artículos de tecnología -->
+    <main id="main-content">
+        <section class="category-content">
+            <h2>Salud</h2>
+            <p>Explora los últimos artículos relacionados con salud.</p>
+            
+            <!-- Artículo individual con imagen -->
+            <article class="article-card">
+                <img src="https://firebasestorage.googleapis.com/v0/b/chat-0-c9ef9.appspot.com/o/RinconUniversal.com%2Fjusto-habitos-saludables-portada-1920x1047.jpeg?alt=media&token=3ba8201d-a8a4-44ae-be92-865edc6a72c2" alt="Innovaciones en Inteligencia Artificial" class="article-image">
+                <h3><a href="10 hábitos saludables que puedes poner en práctica hoy mismo.html">10 Hábitos Saludables que Puedes Poner en Práctica Hoy Mismo</a></h3>
+                <p>10 Hábitos Saludables que Puedes Poner en Práctica Hoy Mismo...</p>
+                <span class="article-date">Publicado el: 04 de noviembre de 2024</span>
+            </article>
+
+            <article class="article-card">
+                <img src="ruta/a/la/imagen2.jpg" alt="La Revolución de los Smartphones en 2024" class="article-image">
+                <h3><a href="articulo2.html">La Revolución de los Smartphones en 2024</a></h3>
+                <p>Descubre las últimas tendencias y modelos de smartphones que están marcando el 2024...</p>
+                <span class="article-date">Publicado el: 15 de octubre de 2024</span>
+            </article>
+
+            <!-- Agrega más artículos aquí -->
+        </section>
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2024 RinconUniversal.com. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
